@@ -2,9 +2,6 @@
 angular-gravatar
 ================
 
-:author: Uluc Aydin
-
-:date: 2014/02/04
 
 This is a simple AngularJS directive that takes an email address (and optionally some other parameters) to pull Gravatar images.
 
@@ -40,8 +37,8 @@ There are several optional attributes that you can provide to the tag:
 Here are the optional paramaters to customize your gravatar tag:
 
 - **size:** Size of the avatar in pixel.
-- **default:** The default value of the avatar if email address has no matching gravatar. You can provide a full url of an image or select from the following themes: `404`, `mm`, `identicon`, `monsterid`, `wavatar`, `retro`, `blank`.
-- **rating:** Gravatar allows users to self-rate their images so that they can indicate if an image is appropriate for a certain audience, options are: `g`, `pg`, `r`, `x`.
+- **default:** The default value of the avatar if email address has no matching gravatar. You can provide an image url or add from the following themes: `'404'`, `'mm'`, `'identicon'`, `'monsterid'`, `'wavatar'`, `'retro'`, `'blank'`.
+- **rating:** Gravatar allows users to self-rate their images so that they can indicate if an image is appropriate for a certain audience, options are: `'g'`, `'pg'`, `'r'`, `'x'`.
 
 For detailed information of these parameters, please see [Gravatar documentation](https://en.gravatar.com/site/implement/images/).
 
