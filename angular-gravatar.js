@@ -1,11 +1,11 @@
 (function(angular){
   'use strict';
 
-  angular.module('ngGravatar', [])
-  .directive('gravatar', function(){
+  angular.module('angular.gravatar', ['angular.md5'])
+  .directive('gravatar', function(md5){
 
     function _getHashedEmail(email){
-      return md5(email);
+      return md5.createHash(email);
     }
 
     function _buildQuerystring(params){

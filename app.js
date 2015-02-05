@@ -1,4 +1,4 @@
 (function(angular){
-  var testapp = angular.module('testapp', ['ngGravatar']);
-
+  "use strict";
+  var testapp = angular.module('testapp', ['angular.gravatar', 'angular.md5']);
 })(angular);
