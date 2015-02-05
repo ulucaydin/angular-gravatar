@@ -1,12 +1,10 @@
-================
-angular-gravatar
-================
+#angular-gravatar
 
 
 This is a simple AngularJS directive that takes an email address (and optionally some other parameters) to pull Gravatar images.
 
-Getting Started
-============
+##Getting Started
+
 
 Load this directive with the following code:
 
@@ -20,8 +18,7 @@ Add the following dependencies to the module in your own module.
 var myModule = angular.module('MyModule', ['angular.md5', 'angular.gravatar']);
 ```
 
-Usage
-=====
+##Usage
 
 Use the directive in your HTML files with the following code using the custom `<gravatar>` tag:
 ```html
@@ -42,6 +39,6 @@ Here are the optional paramaters to customize your gravatar tag:
 
 For detailed information of these parameters, please see [Gravatar documentation](https://en.gravatar.com/site/implement/images/).
 
-Todo
-============
+##Todo
 - Write testing
+- Add secure paramater to the directive
